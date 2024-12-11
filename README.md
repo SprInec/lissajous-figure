@@ -10,8 +10,6 @@
 
 [TOC]
 
-
-
 #### Lissajous Figures
 
 >   [百度百科-利萨如图形]: https://baike.baidu.com/item/%E5%88%A9%E8%90%A8%E5%A6%82%E5%9B%BE%E5%BD%A2/10517125
@@ -19,6 +17,7 @@
 **利萨茹(Lissajous)曲线**（又称**利萨茹图形**、**李萨如图形**或**鲍迪奇(Bowditch)曲线**）是两个沿着互相垂直方向的正弦振动的合成的轨迹。
 
 [利萨茹曲线](https://baike.baidu.com/item/利萨茹曲线/4925397)由以下[参数方程](https://baike.baidu.com/item/参数方程)定义：
+
 $$
 x(θ)=asinθ
 $$
@@ -28,19 +27,23 @@ y(θ)=bsin(nθ+φ)
 $$
 
 其中
+
 $$
 n\geqslant1
 $$
+
 且
 
 $$
 0\leqslantφ\leqslant\frac{\pi}{2}
 $$
+
 n称为曲线的参数，是两个正弦振动的频率比。若比例为有理数，则
 
 $$
 n=\frac{q}{p}
 $$
+
 参数方程可以写作:
 
 $$
@@ -51,10 +54,10 @@ $$
 y(θ)=bsin(qθ+φ)
 $$
 
-
 $$
 0\leqslantθ\leqslant2\pi
 $$
+
 <img src="F:/Embedded%20Development/Software/STM32%20Project/Base%20MKD%20Keil/Lisaru/image/uTools_1657631836871.png" alt="lissajous fijures"  />
 
 ###### 我们可以利用python的numpy和matplotlib库在电脑上绘制利萨如图形:
